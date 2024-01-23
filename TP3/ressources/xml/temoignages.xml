@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE temoignages SYSTEM "temoignages.dtd">
+<temoignages>
+    <temoignage>
+        <nom>Simon Tremblay</nom>
+        <age>28</age>
+        <metier>programmeur</metier>
+        <adresse_courriel>SimonTr@gmail.com</adresse_courriel>
+        <musee>
+            <nom>Metropolitan Museum of Art</nom>
+            <ville>New York</ville>
+            <date>20-10-2023</date>
+            <appreciation>Très bon musée</appreciation>
+        </musee>
+    </temoignage>
+    
+    <temoignage>
+        <nom>Simon Terra</nom>
+        <age>28</age>
+        <metier>programmeur</metier>
+        <adresse_courriel>SimonTr@gmail.com</adresse_courriel>
+        <musee>
+            <nom>Metropolitan Museum of Art</nom>
+            <ville>New York</ville>
+            <date>20-10-2023</date>
+            <appreciation>Très bon musée</appreciation>
+        </musee>
+    </temoignage>
+
+    <temoignage>
+        <nom>Simon Tremb</nom>
+        <age>28</age>
+        <metier>programmeur</metier>
+        <adresse_courriel>SimonTr@gmail.com</adresse_courriel>
+        <musee>
+            <nom>Metropolitan Museum of Art</nom>
+            <ville>New York</ville>
+            <date>20-10-2023</date>
+            <appreciation>Très bon musée</appreciation>
+        </musee>
+    </temoignage>
+
+    <temoignage>
+        <nom>Simon Trem</nom>
+        <age>28</age>
+        <metier>programmeur</metier>
+        <adresse_courriel>SimonTr@gmail.com</adresse_courriel>
+        <musee>
+            <nom>Metropolitan Museum of Art</nom>
+            <ville>New York</ville>
+            <date>20-10-2023</date>
+            <appreciation>Très bon musée</appreciation>
+        </musee>
+    </temoignage>
+
+    <temoignage>
+        <nom>Simon Tre</nom>
+        <age>28</age>
+        <metier>programmeur</metier>
+        <adresse_courriel>SimonTr@gmail.com</adresse_courriel>
+        <musee>
+            <nom>Metropolitan Museum of Art</nom>
+            <ville>New York</ville>
+            <date>20-10-2023</date>
+            <appreciation>Très bon musée</appreciation>
+        </musee>
+    </temoignage>
+    
+</temoignages>

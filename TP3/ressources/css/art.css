@@ -1,0 +1,50 @@
+.juan > img {
+    width: 100%;
+}
+
+.image-content-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17rem);
+    align-items: flex-start;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+h1:hover{
+    text-decoration: underline;
+} 
+.content-box-container{
+    
+    background-color: beige;
+    border-radius: 2%;
+    padding: 5%;
+    transition: 1s;
+}
+
+.content-box-container > img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10%;
+    transition: 1s;
+}
+.image-content-container img:hover {
+
+    border-radius: 50px;
+}
+
+.content-box-container:hover{
+    border-radius: 50px;
+}
+
+.content-box-container:hover{
+    text-decoration: underline;
+} 
+
+
+ 
+    
+

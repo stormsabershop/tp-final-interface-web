@@ -1,0 +1,10 @@
+<!ELEMENT temoignages (temoignage+)>
+<!ELEMENT temoignage (nom,age,metier,adresse_courriel,musee)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT metier (#PCDATA)>
+<!ELEMENT adresse_courriel (#PCDATA)>
+<!ELEMENT musee (nom,ville,date,appreciation)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT appreciation (#PCDATA)>

@@ -1,0 +1,94 @@
+.image-content-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17rem);
+    align-items: flex-start;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.content-box-container{
+    
+    background-color: beige;
+    border-radius: 2%;
+    padding: 5%;
+    transition: 1s;
+}
+
+.content-box-container > img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10%;
+    transition: 1s;
+}
+.image-content-container img:hover {
+
+    border-radius: 50px;
+}
+
+.content-box-container:hover{
+    border-radius: 50px;
+}
+
+.content-box-container:hover{
+    text-decoration: underline;
+} 
+.video-evenement-page {
+    text-align: center;
+}
+
+.video-evenement-page video {
+    width: 75%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+}
+
+.evenement-content{
+
+    align-items: center;
+
+    display: flex;
+
+    margin: 2vw;
+
+    background-color: lightgrey;
+
+    border: 1vw solid grey;
+
+    width: 90vw;
+
+}
+
+.evenement-content-txt{
+
+    height: 37vw;
+
+    font-size: 1.6vw;
+
+    padding: 2%;
+    transition: 2s;
+
+}
+
+.evenement-content-txt:hover{
+    height: 40vw;
+}
+
+.evenement-content-img{
+
+    float: left;
+
+}
+
+.evenement-content-img img{
+
+    height: 40vw;
+
+}

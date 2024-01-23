@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* header section (start) */
+
+header .header-2 .flex {
+    padding: 1rem;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 98%;
+    margin: 0;
+    position: relative;
+    margin-bottom: 15px;
+    background-color: #e4002b;
+}
+
+header .header-2 .flex .navbar a {
+    text-decoration: none;
+    margin-right: 2vw;
+    font-size: 3vw;
+    color: white;
+    transition: 100ms;
+}
+
+header .header-2 .flex .navbar a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.logo_principal {
+    width: 8%;
+    float: left;
+}
+
+.menu_btn {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 5vw;
+    right: 5vw;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+
+.navbar2 {
+    width: 100%;
+}
+
+.navbar2 .menu-items {
+    display: flex;
+}
+
+.navbar2 .nav-container li {
+    list-style: none;
+}
+
+.navbar2 .nav-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.navbar2 .nav-container a:hover {
+    font-weight: bolder;
+    color: red;
+}
+
+.nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    z-index: 6;
+    opacity: 0;
+    cursor: pointer;
+    right: 0;
+}
+
+.nav-container .hamburger-lines {
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 0;
+}
+
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+}
+
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navbar2 .menu-items {
+    position: fixed;
+    padding-top: 50%;
+    width: 105%;
+    height: 100%;
+    margin-top: -5%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 50px;
+    transition: transform 1s ease-in-out;
+    text-align: center;
+    color: white;
+    background-color: black;
+    z-index: 4;
+    
+}
+
+.navbar2 .menu-items a {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+}
+
+/* header section (fin) */
+
+
+
+
+
+
+
+
+
+/* contenu principal (start) */
+
+@keyframes welcome-change {
+    0% {font-size: 5vw;}
+    50% {font-size: 4.5vw;}
+    100% {font-size: 5vw;}
+}
+
+@keyframes billets-change {
+    0% {font-size: 2vw;}
+    50% {font-size: 1.9vw;}
+    100% {font-size: 2vw;}
+}
+
+.main-content{
+    align-items: center;
+    display: flex;
+    margin: 10%;
+    background-color: lightgrey;
+    border: 1vw solid grey;
+}
+.main-content-txt{
+    height: 37vw;
+    font-size: 1.6vw;
+    padding: 2%;
+}
+.main-content-img{
+    float: left;
+}
+.main-content-img img{
+    height: 40vw;
+}
+
+.welcome-message p{
+    padding: 15vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top: 22vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+
+.welcome-message p:hover{
+    animation-name: welcome-change;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.welcome-message img{
+    width: 100%;
+}
+
+
+.p{ 
+    text-align: center;
+}
+
+.billets{
+    padding: 5%;
+    font-size: 2vw;
+    background-color: #333;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 10%;
+}
+.billets:hover{
+    animation-name: billets-change;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+
+
+/* calendrier */
+
+@keyframes cell-change {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+#calendar {
+	width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 10%;
+  
+}
+
+#calendar tr, #calendar tbody {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 90%;
+  margin: auto;
+}
+
+caption {
+	text-align: center;
+  grid-column: 1 / -1;
+  font-size: 130%;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#calendar a {
+	color: #8e352e;
+	text-decoration: none;
+}
+
+#calendar td, #calendar th {
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+}
+
+#calendar .weekdays {
+	background: #e4002b;  
+}
+
+
+#calendar .weekdays th {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+	font-size: 13px;
+}
+
+#calendar td {
+	min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    animation-name: cell-change;
+    animation-duration: 4s;
+}
+
+#calendar td:hover {
+	background-color: red;
+}
+
+#calendar .days li:hover {
+	background: #d3d3d3;
+}
+
+#calendar .date {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	background: #333;
+	color: #fff;
+	width: 20px;
+	border-radius: 50%;
+  flex: 0 0 auto;
+  align-self: flex-end;
+}
+
+#calendar .event {
+  flex: 0 0 auto;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #e4f2f2;
+	border: 1px solid #b5dbdc;
+	color: #009aaf;
+	text-decoration: none;
+}
+
+#calendar .event-desc {
+	color: #666;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+#calendar .other-month {
+	background: #f5f5f5;
+	color: #666;
+}
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+
+@media(max-width: 768px) {
+
+	#calendar .weekdays, #calendar .other-month {
+		display: none;
+	}
+
+	#calendar li {
+		height: auto !important;
+		border: 1px solid #ededed;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: -1px;
+	}
+  
+  #calendar, #calendar tr, #calendar tbody {
+    grid-template-columns: 1fr;
+  }
+  
+  #calendar  tr {
+    grid-column: 1 / 2;
+  }
+
+	#calendar .date {
+		align-self: flex-start;
+	}
+}
+
+/* contenu principal (start) */
+
+
+
+
+
+
+
+
+
+
+/* footer section (start) */
+
+.footer{
+    color: white;
+    padding: 2%;
+}
+
+.footer .box-container{
+    width: 95%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap:3rem;
+}
+ 
+.footer .box-container .box h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+ 
+.footer .box-container .box p,
+.footer .box-container .box a{
+    color: white;
+    display: block;
+    font-size: 1rem;
+    padding:1rem 0;
+}
+ 
+.footer .box-container .box p i,
+.footer .box-container .box a i{
+    padding-right: .5rem;
+}
+ 
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+ 
+.footer .credit{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.copyright{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* footer section (fin) */
+
+
+
+
+
+
+
+
+
+/* media querys (start) */
+
+@media only screen and (max-width: 600px) {
+
+    /* ici les restrictions pour les écrans plus petit que 600px */
+    header .header-2 .flex .navbar a {
+        display: none;
+    }
+    .menu_btn{
+        display: inline-block;
+    }
+    body{
+        background-color: beige;
+        font-size: 50%;
+        font-family: "Arial", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* ici les restrictions pour les écrans entre 600px et 992px */
+    body{
+        background-color: white;
+        font-size: 75%;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* ici les restrictions pour les écrans plus grans que 992px */
+
+    body{
+        background-color: white;
+        font-family: "Copperplate", sans-serif;
+    }
+}
+
+/* media querys (fin) */
